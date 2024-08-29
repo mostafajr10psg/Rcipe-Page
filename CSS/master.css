@@ -1,7 +1,9 @@
-/* Start Global Rules  */
-
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
 @media (min-width: 992px) {
-  .page {
+  main {
     padding: 100px 0;
   }
   .content {
@@ -16,11 +18,6 @@
   .content .image img {
     border-radius: var(--border-rad);
   }
-}
-
-body {
-  margin: 0;
-  font-family: "Outfit", sans-serif;
 }
 
 ul {
@@ -38,7 +35,7 @@ a {
 }
 
 :root {
-  --main-padd: 30px;
+  --main-padd: 40px;
   --border-rad: 15px;
   --p-color: #565656;
   --line-ht: 1.5;
@@ -70,8 +67,6 @@ a {
 }
 /* End Componenets  */
 
-/* End Global Rules  */
-
 .title h1,
 .ingredients h3,
 .instructions h3,
@@ -80,7 +75,7 @@ a {
   font-weight: 500;
 }
 
-.page {
+main {
   background-color: rgb(243 229 216);
 }
 
@@ -95,7 +90,7 @@ a {
 .title h1 {
   margin: 20px 0 15px;
   color: #363636;
-  font-size: 37px;
+  font-size: 35px;
 }
 
 .title p {
